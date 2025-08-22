@@ -3,7 +3,7 @@ name: Fetch Air Quality Data
 on:
   schedule:
     - cron: "0 * * * *"   # كل ساعة
-  workflow_dispatch:       # تشغيل يدوي
+  workflow_dispatch:       # تشغيل يدوي من زر Run workflow
 
 jobs:
   build:
