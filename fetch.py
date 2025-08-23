@@ -1,7 +1,7 @@
 import requests
 import pandas as pd
 import os
-from datetime import datetime
+from datetime import datetim
 
 API_TOKEN = os.getenv("AQI_TOKEN")  # نخزن التوكن كمتغير بيئة
 
