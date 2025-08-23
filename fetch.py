@@ -8,7 +8,7 @@ API_TOKEN = os.getenv("AQI_TOKEN")  # نخزن التوكن كمتغير بيئ�
 cities = ["beijing", "paris", "algiers"]
 
 def fetch_city(city):
-    url = f"https://api.waqi.info/feed/{city}/?token={API_TOKEN}"
+    url = f"https://api.waqi.info/feed/{city}/?token={c53f3913c05d2b0593c417b5662b0ed070164fea}"
     r = requests.get(url).json()
     if r["status"] == "ok":
         data = r["data"]
