@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import os
 from datetime import datetime
+
 API_TOKEN = os.getenv("AQI_TOKEN")  # نخزن التوكن كمتغير بيئة
 
 cities = ["beijing", "paris", "algiers"]
